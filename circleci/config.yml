@@ -11,7 +11,7 @@ jobs:
       - run: sudo apt update 
       - run: sudo docker-php-ext-install zip
 
-      # Download and cache dependencies
+
       - restore_cache:
           keys:
             # "composer.lock" can be used if it is committed to the repo
